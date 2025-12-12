@@ -1,0 +1,35 @@
+Samples: 1000
+
+Params Q=0.01, R=0.1
+  Jitter - raw: mean=9.6991, std=24.4565; kalman: mean=7.4943, std=7.7227; reduction=22.73%
+  Smoothness - raw: mean=11.0003, std=42.4063; kalman: mean=4.7991, std=11.7521; reduction=56.37%
+  MSE per axis: x=574.5330, y=391.1910; MSE total=965.7240
+  RMSE per axis: x=23.9694, y=19.7785; RMSE total=31.0761
+
+
+Params Q=0.05, R=0.1
+  Jitter - raw: mean=9.6991, std=24.4565; kalman: mean=8.1746, std=12.6764; reduction=15.72%
+  Smoothness - raw: mean=11.0003, std=42.4063; kalman: mean=6.3665, std=20.5818; reduction=42.12%
+  MSE per axis: x=170.2770, y=96.0810; MSE total=266.3580
+  RMSE per axis: x=13.0490, y=9.8021; RMSE total=16.3205
+
+
+Params Q=0.1, R=0.1
+  Jitter - raw: mean=9.6991, std=24.4565; kalman: mean=8.4769, std=15.1089; reduction=12.60%
+  Smoothness - raw: mean=11.0003, std=42.4063; kalman: mean=7.2338, std=25.0954; reduction=34.24%
+  MSE per axis: x=85.2810, y=46.1660; MSE total=131.4470
+  RMSE per axis: x=9.2348, y=6.7946; RMSE total=11.4650
+
+
+Params Q=0.01, R=0.05
+  Jitter - raw: mean=9.6991, std=24.4565; kalman: mean=7.7666, std=9.6685; reduction=19.92%
+  Smoothness - raw: mean=11.0003, std=42.4063; kalman: mean=5.3568, std=15.1420; reduction=51.30%
+  MSE per axis: x=357.9200, y=222.8790; MSE total=580.7990
+  RMSE per axis: x=18.9188, y=14.9291; RMSE total=24.0998
+
+
+Params Q=0.01, R=0.005
+  Jitter - raw: mean=9.6991, std=24.4565; kalman: mean=8.8001, std=17.6087; reduction=9.27%
+  Smoothness - raw: mean=11.0003, std=42.4063; kalman: mean=8.2511, std=29.7970; reduction=24.99%
+  MSE per axis: x=37.8280, y=19.9080; MSE total=57.7360
+  RMSE per axis: x=6.1504, y=4.4618; RMSE total=7.5984

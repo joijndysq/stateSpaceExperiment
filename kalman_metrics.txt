@@ -1,0 +1,14 @@
+Samples: 1000
+
+Jitter (mean, std) - raw: 6.9135, 2.8898
+Jitter (mean, std) - kalman: 6.2686, 4.6897
+Jitter reduction (relative): 9.33%
+
+Smoothness (mean, std) - raw: 6.6931, 5.4260
+Smoothness (mean, std) - kalman: 2.7427, 2.9250
+Smoothness reduction (relative): 59.02%
+
+MSE per axis - raw vs kalman: x=388.5280, y=265.7500
+MSE total (per sample): 654.2780
+RMSE per axis: x=19.7111, y=16.3018
+RMSE total: 25.5789
